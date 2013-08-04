@@ -4,10 +4,11 @@
  * Libraries used - IBM iLOG CP OPTIMIZER
  * Sidhartha Mani - sidhartm@andrew.cmu.edu
  */
-
 #include <ilcp/cp.h>
 
+
 int main(int argc, const char * argv[]) {
+
     IloEnv env;
     try {
         IloModel model(env);
